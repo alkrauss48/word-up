@@ -2,7 +2,7 @@ $(document).ready( function() {
   var fontSize = 160;
 
   setInterval( function() {
-    // Height of the window.
+    // Height of the window and scroll area.
     var windowHeight = window.innerHeight;
     var scrollHeight = $('#wordup').prop('scrollHeight');
 
@@ -32,5 +32,5 @@ $(document).ready( function() {
       var newScrollHeight = $('#wordup').prop('scrollHeight');
       $('#wordup').height(0).height(newScrollHeight);
     }
-  }.bind(this), 100);
+  }, 100);
 });
