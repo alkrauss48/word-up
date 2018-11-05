@@ -12,6 +12,18 @@ where you can use this web application to show them a little message from an
 overhead monitor that they can read. The text needs to be as large as it can be,
 without having to scroll.
 
+## To Run
+
+This executable will just spin up a simple server on port 8000:
+
+```
+./bin/server
+```
+
+If that doesn't work (which would mean you either don't have python, or don't
+have python's SimpleHTTPServer module enabled), you can use anything that can serve
+up the `index.html` file.
+
 ## Tech
 
 This application just uses HTML, CSS, JavaScript & jQuery. If you'd like to
