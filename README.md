@@ -31,7 +31,7 @@ remove jQuery and the application still works - be my guest!
 
 It currently is not working as expected. - but it's close! Please, make it work!
 
-##Issue Fixed
+## Issue Fixed
 
 I went ahead and redesigned the outlook and fixed the responsive text issue. However, the design may not be something you were looking for, so let me know if you want something different.
 
