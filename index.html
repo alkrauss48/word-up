@@ -1,22 +1,49 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
 
-  <title>Word Up</title>
-  <meta name="description" content="Word Up">
-  <meta name="author" content="Techlahoma">
+    <title>Word Up</title>
+    <meta name="description" content="Word Up" />
+    <meta name="author" content="Techlahoma" />
 
-  <link rel="stylesheet" href="/app.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
-</head>
-<body>
-  <form class="main-form" action="">
-    <textarea name="wordup" id="wordup"></textarea>
-  </form>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script src="/app.js"></script>
-</body>
+    <link rel="stylesheet" href="/app.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:700"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Open overlay button -->
+    <div class="openOverlayBtn" id="open">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+
+    <!-- Navigation overlay container -->
+    <div class="nav-overlay-container" id="overlay">
+      <div class="closeBtn" id="close"></div>
+
+      <form class="main-form" action="">
+        <div class="label-message">
+          <label>Input Twitch Message Here</label>
+        </div>
+        <div>
+          <textarea class="wordup" name="wordup" id="wordup"></textarea>
+        </div>
+      </form>
+    </div>
+    <div class="output-container" id="output-container">
+      <h1><span></span></h1>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="/app.js"></script>
+  </body>
 </html>
