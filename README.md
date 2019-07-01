@@ -30,3 +30,9 @@ This application just uses HTML, CSS, JavaScript & jQuery. If you'd like to
 remove jQuery and the application still works - be my guest!
 
 It currently is not working as expected. - but it's close! Please, make it work!
+
+##Issue Fixed
+
+I went ahead and redesigned the outlook and fixed the responsive text issue. However, the design may not be something you were looking for, so let me know if you want something different.
+
+Just press the navigation bar icon, enter in the message you want to display on the main screen, then press enter and the navigation overlay will collapse and the message will be displayed to the main screen!
