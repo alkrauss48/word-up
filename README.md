@@ -1,5 +1,13 @@
 # Word Up
 
+## THIS PROJECT IS COMPLETE
+Thanks to [@silashuereca](https://github.com/silashuereca).
+
+See the live version here:
+[https://labs.thecodeboss.dev/word-up/](https://labs.thecodeboss.dev/word-up/)
+
+---
+
 This application is a simple page with a textarea where all of the text should
 be visible on whatever screen you're viewing the page without ever having to
 scroll.
